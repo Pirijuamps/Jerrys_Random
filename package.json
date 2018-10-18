@@ -1,0 +1,28 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "El random del jerry",
+  "main": "App.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pirijuamps/Jerrys_Random.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Juampy, Oscar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pirijuamps/Jerrys_Random/issues"
+  },
+  "homepage": "https://github.com/Pirijuamps/Jerrys_Random#readme"
+}
