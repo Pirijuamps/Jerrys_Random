@@ -1,29 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>El Random OwO</title>
-    <style>
-        body {
-            background-image: url("https://i.imgur.com/IiFMU2T.png");
-            background-repeat: repeat;
-            background-size: 1800px 900px;
-        }
-        
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 65%;
-        }
-    </style>
 </head>
 <body>
-    <img src = "https://i.imgur.com/DEAwOyK.gif" class="center">
-    <audio controls autoplay>
-    <source src = "https://t4.bcbits.com/stream/e4155ea1df974f4bf76e4d0ce5c96c66/mp3-128/2639445954?p=0&ts=1538755738&t=5aa1ebcb20b9b7489d9e6f3c8eeaaddd31c7b54f&token=1538755738_f74916aa4f60024ed09117e03c76b95c522dd02e" type="audio/mp3-128"></a>
-    <script src = "ElRandom.js"></script>
+	
+	<input type="text" id="nombre" />
+	</br>
+	<form action="/upload" enctype="multipart/form-data" method="POST"> 
+    	<input type="file" name="foto" />
+    	</br>
+    	<input type="submit" value="subir"/>
+	</form>
+	<button onclick="imagen();">MOSTRAR</button>
+	</br>
+	<canvas id="imagenes" width="2000" height="2000"><canvas>
+
+	<script type="text/javascript" src="random.js"></script>
+	<script type="text/javascript" src="/App.js"></script>
 </body>
-</html>
+</hmlt>
