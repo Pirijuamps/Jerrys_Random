@@ -20,3 +20,6 @@ dist/*
 !dist/windows
 !dist/mac
 !dist/linux
+
+#Photos
+public/photo-storage
