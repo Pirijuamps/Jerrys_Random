@@ -13,28 +13,23 @@ function loadJSON(file, callback) {
  }
  
 
-	console.log("work");
+
+function imagenes(){
+
 	loadJSON("/all", function(response) {
-  
-        const files = JSON.parse(response);
-        console.log(files[0]); 
-    });
+    	let files = JSON.parse(response);
+    	
+    	var canvas = document.getElementById('imagenes');
+		var context = canvas.getContext("2d");
+    	
+		base_image = new Image();
+  		base_image.src = "photo-storage/"+files[];
+		base_image.onload = function(){
+    		context.drawImage(base_image, 0, 0);
+    	}
+
+    	console.log(files[0]);
+	});
 
 
-
-
-
-var canvas = document.getElementById('imagenes');
-var context = canvas.getContext("2d");
-
-var imagenesArr = new Array();
-imagenesArr[0] = './photo-storage/foto-1539797044371.jpeg';
-
-
-function imagen(){
-	foto = new Image();
-	foto.src=
-	foto.onload = function(){
-    context.drawImage(foto,0,0,500,600);
-    }
 }
